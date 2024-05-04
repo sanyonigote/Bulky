@@ -1,0 +1,30 @@
+﻿@using Bulky.Models.Models
+@model Category
+
+<form method="post">
+    <div class="border p-3 mt-4">
+        <div class="row pb-3">
+            <h2 class="btn btn-primary">
+                Category Product
+            </h2>
+            <hr />
+        </div>
+        
+            <div class="mb-3">
+                <label>Name</label>
+                <input asp-for="Name" disabled class="form-control" />
+                
+
+            </div>
+
+
+
+            <div class="mb-3">
+                <label>Display Order</label>
+                <input asp-for="DisplayOrder" disabled class="form-control" />
+
+            
+        <button type="submit" class="btn btn-primary" style="width:150px">Delete</button>
+    </div>
+</form>
+
